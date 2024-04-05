@@ -1,0 +1,64 @@
+/* CWS Developer: DoyleS */
+body {
+	background: #000;
+    color: #fff;
+    font-family: "Graduate", serif;
+    font-size: 12px;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+video {
+  left: 0;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: 1;
+}
+header {
+	position: relative;
+	z-index: 2;
+}
+header img {
+	display: block;
+	margin: 0 20px 0 0;
+	max-height: 50px;
+}
+header span {
+	display: block;
+	line-height: 50px;
+	margin: 0 10px;
+	text-transform: uppercase;
+	vertical-align: top;
+}
+
+/* Template */
+.page-container {
+	left: 0;
+    opacity: 1;
+    padding: 40px;
+	position: fixed;
+	top: 0;
+	transition: 0.5s;
+	vertical-align: top;
+	width: 100%;
+	z-index: 1;
+}
+.screen-section {
+	min-height: 100vh;
+}
+
+@media only screen and (min-width: 640px) {
+	header img,
+	header span {
+		display: inline-block;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	header img,
+	header span {
+		display: inline-block;
+	}
+}
